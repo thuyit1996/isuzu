@@ -1,0 +1,275 @@
+// TYPOGRAPHY
+// 1. Font size
+$font-size-base:              2.3rem; // Overwrite bootstrap $font-size-base, now it is 23px ( the default text font-size from design guide )
+$font-size-mobile:            1.8rem;
+
+$h1-font-size:                6rem;
+$h2-font-size:                4.8rem;
+$h3-font-size:                3.6rem;
+$h4-font-size:                3.0rem;
+$h5-font-size:                2.3rem;
+$h6-font-size:                2.2rem;
+
+$h1-font-size-mobile:         3.6rem;
+$h2-font-size-mobile:         3.0rem;
+$h3-font-size-mobile:         3rem;
+// TODO: update font-size h4 when we have complete design
+$h4-font-size-mobile:         3rem;
+$h5-font-size-mobile:         2.4rem;
+$h6-font-size-mobile:         1.8rem;
+
+$font-size-small:             1.5rem;
+
+// 2. Line height
+$line-height-base:            1.2;
+
+
+// 3. Font weight
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+$font-weight-extra-bold:      800;
+
+// 4. Font family
+$font-family-base:            KittihadaRoman55;
+$font-family-eurothai:        Eurothai;
+$font-family-eurothai-demi:   Eurothai-Demi;
+$font-family-Kittithada-Bold75: KittithadaBold75;
+$font-family-Kittihada-Medium65: KittihadaMedium65;
+
+// 5- Breakpoint
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 325px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+// INFO: based on statistic here: https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide/2018
+// It is NOT a complete solution but it solve 90% cases.
+$desktop-min-width: 1281px;
+
+// COLOR
+// INFO: copy from default of bootstrap,
+// grayscale is defined by design ( inspect text, background, border )
+$white:    #fff;
+$gray-100: #f2f1f0;
+$gray-200: #e1e1e1;
+$gray-300: #d5d5d5;
+$gray-400: #a1a1a1;
+$gray-500: #999999;
+$gray-600: #787878;
+$gray-700: #666666;
+$gray-800: #333333;
+$gray-900: #282828;
+$black:    #000;
+
+// RED COLOR HOVER
+$red-hover-color: #e50011;
+
+// BUTON COLOR:
+$primary-bgr: #666666;
+$primary-color: #ffffff;
+$primary-bgr-activated: #e50011;
+$primary-color-activated: #ffffff;
+$secondary-bgr: #ffffff;
+$secondary-color: #222222;
+$secondary-bgr-activated: #e50011;
+$secondary-color-activated: #ffffff;
+
+// INFO: we don't use those variable, so keep them intact.
+// $blue:    #007bff !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #e83e8c !default;
+// $red:     #dc3545 !default;
+// $orange:  #fd7e14 !default;
+// $yellow:  #ffc107 !default;
+// $green:   #28a745 !default;
+// $teal:    #20c997 !default;
+// $cyan:    #17a2b8 !default;
+
+// $primary:       $blue !default;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-800 !default;
+
+// COMPONENT
+// 1. Body
+$body-bg:                   $white;
+$body-color:                $black;
+// 2. Link
+$link-color:                #0000EE;
+$link-decoration:           none;
+$link-hover-color:          #ed2600;
+$link-hover-decoration:     underline;
+// 3. Other component we don't use, so we use bootstrap defaults
+$modal-backdrop-bg:         rgba($black, 0.2);
+$modal-md:                  650px;
+// 4. Popup icon
+$waiting-icon-color: #666666;
+$successful-icon-color: #666666;
+$failed-icon-color: #666666;
+// CUSTOM
+$HEADER_ZINDEX: 4;
+$SECONDARY_STICKY_MENU_ZINDEX: 3;
+$CAR_COMPARISION_FIX_BAR_Z_INDEX: 2;
+$TEST_DRIVER-DEALER_ZINDEX: 2;
+$TEST_REQUEST_QUOTE_DEALER_ZINDEX: 2;
+$COMPARE_CAR_MODAL_ZINDEX: 2;
+$PDT_POPUP_ZINDEX: 5;
+$NOMAL-ZINDEX: 1;
+$SWIPER_PAGINATION_ZINDEX: 3;
+
+// PAGE
+// GENERAL
+$font-size-desc-mobile: 2rem;
+
+// CAR COMPARISON
+// Font-size
+$font-size-comparison-small: 2.0rem;
+$font-size-comparison-desc-small: 2.2rem;
+$font-size-comparison-desc: 2.5rem;
+$font-size-comparison-title-fix-small: 2.3rem;
+$font-size-comparison-title-fix: 2.5rem;
+$font-size-comparison-title-small: 2.2rem;
+$font-size-comparison-title: 2.3rem;
+$font-size-comparison-collapse-small: 2.2rem;
+$font-size-comparison-collapse: 3.0rem;
+$font-size-comparison-choose-car-small: 2.2rem;
+$font-size-comparison-choose-car: 2.5rem;
+$font-size-comparison-select-price-small: 2.5rem;
+$font-size-comparison-select-price: 3.5rem;
+$font-size-comparison-button-small: 2.0rem;
+$font-size-comparison-button: 2.5rem;
+
+// Distance
+$distance-carcomparison-choose-car: 20px;
+$distance-carcomparison-choose-car-lg: 50px;
+
+// FOOTER
+$font-size-footer-title: 2.2rem;
+$font-size-footer-title-mobile: 2rem;
+$font-size-footer-link-mobile: 1.8rem;
+$font-size-footer-link: 1.9rem;
+
+// SUBSCRIBE FORM
+$font-size-subscribe-form-mobile: 2rem;
+$font-size-subscribe-form-desktop: 2.4rem;
+
+// CTA FEATURE
+$font-size-cta-desc-mobile: $font-size-desc-mobile;
+
+// NEWS AND ACTIVITIES
+$font-size-news-title: 3rem;
+$font-size-news-title-mobile: 2.4rem;
+
+// CONTENT DETAIL
+$font-size-content-small: 2.0rem;
+
+// FIND DEALER
+// Font-size
+$font-size-find-dealer-small: 2.0rem;
+$font-size-find-dealer-data-info: 2.0rem;
+$font-size-find-dealer-data-name: 2.3rem;
+$font-size-find-dealer-data-name-small: 2.2rem;
+$font-size-find-dealer-data-name-md: 3.2rem;
+$font-size-find-dealer-data-name-lg: 3.2rem;
+$font-size-find-dealer-data-address-lg: 2.5rem;
+$font-size-find-dealer-button-lg: 2.4rem;
+$font-size-find-dealer-list-dealer: 2.3rem;
+$font-size-find-dealer-map-comp-small: 2.1rem;
+$font-size-find-dealer-map-comp: 2.4rem;
+
+// Distance
+$distance-find-dealer-map-comp: 50px;
+$distance-find-dealer-map-comp-lg: 50px;
+$distance-find-dealer-table-info: 40px;
+$distance-find-dealer-table-info-lg: 50px;
+
+// QUICKSELECTION
+// Distance
+$distance-quick-selection: 30px;
+$distance-quick-selection-lg: 30px;
+
+// BREADCRUMB
+// Distance
+$distance-breadcrumb: 15px;
+$distance-breadcrumb-lg: 30px;
+
+// PAGING
+$font-size-paging: 2.5rem;
+
+// BANNER
+$font-size-banner-small: 2.2rem;
+
+// RECENT CONTENT
+$font-size-recent-content-title-mobile: 2.4rem;
+$font-size-recent-content-title: 2.5rem; //INFO: Reduce the font-size follow customer's required
+
+// TEST DRIVE
+$font-size-test-drive-heading-number-mobile: 5rem;
+$font-size-test-drive-heading-number: 6rem;
+$font-size-test-drive-label: 2.3rem;
+$font-size-test-drive-select: 2.5rem;
+$font-size-test-drive-term: 2.5rem;
+$font-size-test-drive-checkbox: 2.3rem;
+$font-size-test-drive-button: 2.5rem;
+
+// PAYMENT CALCULATOR
+$font-size-payment-label-mobile: 2.0rem;
+$font-size-payment-label: 2.3rem;
+$font-size-payment-result-mobile: 2.3rem;
+$font-size-payment-result: 2.5rem;
+$font-size-payment-value-selected: 2.5rem;
+$font-size-payment-button-mobile: 2.3rem;
+$font-size-payment-button: 2.5rem;
+$font-size-payment-remark: 2.0rem;
+$font-size-payment-total-title-mobile: 2.0rem;
+$font-size-payment-total-title: 2.5rem;
+$font-size-payment-price-unit-mobile: 2.5rem;
+$font-size-payment-price-value-mobile: 4rem;
+$font-size-payment-price-value: 5rem;
+
+// FAQ
+$font-size-faq-title-mobile: 3.0rem;
+$font-size-faq-title: 3.6rem;
+$font-size-faq-collapse-mobile: 2.1rem;
+$font-size-faq-collapse: 2.5rem;
+$font-size-faq-desc: 2.1rem;
+
+//UTILITY
+//highlight feature
+$font-size-highlight-feature-heading-mobile: 3.0rem; //INFO: Follow customer's current website
+$font-size-highlight-feature-heading: 4.8rem;
+$font-size-highlight-feature-title-mobile: 3.4rem; //INFO: Follow customer's current website
+$font-size-highlight-feature-title-lg: 4rem;
+$font-size-highlight-feature-title-xl: 4.4rem;
+$font-size-highlight-feature-desc-mobile: 1.9rem;
+$font-size-highlight-feature-desc-md: 2.0rem;
+$font-size-highlight-feature-desc: 2.1rem;
+
+//Utility Paging
+$font-size-utility-paging-current-mobile: 2.5rem;
+$font-size-utility-paging-current: 3.0rem;
+$font-size-utility-paging-total-mobile: 2.1rem;
+$font-size-utility-paging-total: 2.6rem;
+
+// Header
+$mobile-header-height: 50px;
+
+// Accesory Detail
+$content-min-height: 462px; //INFOR: content product min-height.

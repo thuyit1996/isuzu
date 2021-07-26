@@ -1,0 +1,11 @@
+<svg id="Button.Expand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <circle id="bg" class="cls-1" cx="28.5" cy="28.5" r="28.5"/>
+  <image id="icon.zoom" x="14.5" y="14.5" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACJUlEQVRIicWWv0ocURTGv3GCaYQYm4GgrK3Y+AZKXsAUS5qAtQi+QCx8DEES2MYmjdrLQt4gTRBtUugGUkWLLYSRL8x4Jnx75uy4bEbzwWHuv/P95s+de29CEo8oA/AewFsAawCWAKQA7gFcAfgGoA/gC4BfzVaiAjwmOiR7JHNOptzGd8b4jUStwWKb5HBCoNfQ8iPfv+EbUpKHNSvykuQ+yQ2SGcl5u25Y+2Ut48EnjaAR2EOvSXZJJlGyRGLjrgN4NH4EvO2SzkguREkNsWB5qvC1V4WO+6ZF8myUMEHMOvgwmnBVoedeb9OTrpL8aNeov3pyfe29CJy5X6YbGGkMbNwg6NPoimdunBHwrpu9j00kVdRfReJm+672z9iKVOmoWFNqq8x0ovlVUk4JXpP615agkZ9ySvCS1M9d4iqAgd09g7eh7QMbr1I/5ZTgVOp3LnETwJvac8Qqxr1zPeqnnBJ8L/WXLvEUwM8QU1cx7sS1qp9y8MK2tmWrr7it7TuARQCvpO23lF9L+Tb4FCtSvtKOGdtPK63XnuPB7EZCpe3R36B+yinBfal/AJDU0qdTYn6V+iMu/3Plmmat3mtjrW57d5ojeTHp7tTmfnzhfHaCcU9+Ail0FB2BvEGbZ65GeHT3aOGUuWOwsfAIqhPuX87VaRM8AvrIbBM/JvlDbiS3+rH1Z0HuWHgEajsi+KfnAEfwvFirn0PFlrgF4HNZBg7+AJLlCm/AErYfAAAAAElFTkSuQmCC"/>
+</svg>

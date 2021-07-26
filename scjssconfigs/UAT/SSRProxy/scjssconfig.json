@@ -1,0 +1,8 @@
+{
+  "sitecore": {
+    "apiKey": "{14FAFD89-F993-4032-A75A-6C24D3BD1BD4}",
+    "deploySecret": "phn4kh68wtt1vpacpqqhyf2ssguz31hjuhp7w9gef7h",
+    "deployUrl": "https://isuzu-uat-212830-cd.azurewebsites.net/sitecore/api/jss/import",
+    "layoutServiceHost": "https://isuzu-uat-proxy.azurewebsites.net"
+  }
+}

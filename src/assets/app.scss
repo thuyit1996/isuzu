@@ -1,0 +1,37 @@
+@import './variables';
+@import './mixin';
+@import '../assets/bootstrap/scss/bootstrap.scss';
+@import "vue-select/src/scss/vue-select.scss";
+@import './global';
+// TODO: why import here is not working?
+// @import '../../node_modules/swiper/dist/css/swiper.css';
+
+// $HEADER_ZINDEX: 2;
+// $SECONDARY_STICKY_MENU_ZINDEX: 1;
+
+// a[target='_blank']:after {
+//   content: '\1F5D7';
+// }
+
+/*
+  Hides Sitecore Experience Editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+
+
+
+.scChromeData,
+.scpm {
+  display: none !important;
+}
+
+.main-logo {
+  width: 100px;
+}
+
+// TODO: why it is not working here
+// @font-face {
+//   font-family: Kittihada;
+//   src: url('./fonts/KittithadaMedium65.woff2') format("woff2");
+// }

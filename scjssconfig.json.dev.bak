@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\isuzu-net.hn.smartosc.com",
+    "apiKey": "{14FAFD89-F993-4032-A75A-6C24D3BD1BD4}",
+    "deploySecret": "phn4kh68wtt1vpacpqqhyf2ssguz31hjuhp7w9gef7h",
+    "deployUrl": "http://isuzu-net.hn.smartosc.com/sitecore/api/jss/import",
+    "layoutServiceHost": "http://isuzu-app-net.hn.smartosc.com"
+  }
+}

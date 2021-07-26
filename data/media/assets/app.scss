@@ -1,0 +1,23 @@
+// @import 'node_modules/bootstrap/scss/bootstrap';
+// @import 'node_modules/bootstrap-vue/src/index.scss';
+
+a[target='_blank']:after {
+  content: '\1F5D7';
+}
+
+/*
+  Hides Sitecore Experience Editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+
+
+
+.scChromeData,
+.scpm {
+  display: none !important;
+}
+
+.main-logo {
+  width: 100px;
+}
